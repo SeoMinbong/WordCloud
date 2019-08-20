@@ -1,0 +1,48 @@
+vscode 설치
+nodejs 설치
+npm으로 yarn 설치
+
+
+vscode 관리자 권한(리눅스면 루트권한) 실행
+
+생성한 프로젝트 폴더 오픈폴더
+
+터미널
+
+D:\MyReact>yarn init
+엔터엔터엔터
+
+D:\MyReact>yarn add react react-dom
+
+D:\MyReact>yarn add --dev webpack webpack-dev-server
+
+D:\MyReact>yarn add --dev babel-core babel-loader babel-preset-react-app
+
+D:\MyReact>yarn add --dev webpack-cli
+
+
+위 라이브러리 설치 하면서 
+package.json 파일 내부 dependencies 및 devDependencies 확인.
+
+public -> index.html
+
+
+http://git-scm.com
+
+
+
+
+
+git init
+git add .
+git commit -m "Somethin description"
+git remote origin https://github.com/SeoMinbong/WordCloud.git
+git remote -v
+git push --set-upstream origin master
+
+
+
+
+
+
+material-ui.com
