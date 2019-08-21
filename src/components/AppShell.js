@@ -27,7 +27,7 @@ class AppShell extends React.Component {
         const { classes} = this.props;
         return(
             <div>
-                <div classNmae = {classes.root }>
+                <div classnmae = {classes.root }>
                     <AppBar position="static">
                         <IconButton className = {classes.menuButton} color = "inherit" onClick = {this.handdleDrawerToggle}>
                             <MenuIcon/>
@@ -36,17 +36,17 @@ class AppShell extends React.Component {
                     <Drawer open = {this.state.toggle}>
                         <MenuItem onClick ={this.handdleDrawerToggle}>
                             <Link component = {RouterLink} to ="/">
-                                Home
+                                홈 화면
                             </Link>
                         </MenuItem>
                         <MenuItem onClick ={this.handdleDrawerToggle}>
                             <Link component = {RouterLink} to ="/Texts">
-                                Texts
+                                텍스트 관리
                             </Link>
                         </MenuItem>
                         <MenuItem onClick ={this.handdleDrawerToggle}>
                             <Link component = {RouterLink} to ="/Words">
-                                Words
+                                단어 관리
                             </Link>
                         </MenuItem>
 
